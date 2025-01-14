@@ -12,18 +12,10 @@ class HomeView extends StatelessWidget {
         appBar: AppBar(
           backgroundColor: Colors.white,
           centerTitle: true,
-          title: const Row(
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                'Egy ',
-                style: TextStyle(color: Colors.black, fontSize: 30),
-              ),
-              Text(
-                ' News',
-                style: TextStyle(color: Colors.orange, fontSize: 30),
-              )
-            ],
+          title:
+          const Text(
+            'News ',
+            style:  TextStyle(color: Colors.black, fontSize: 30),
           ),
         ),
         body: Padding(

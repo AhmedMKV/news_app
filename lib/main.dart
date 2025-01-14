@@ -12,7 +12,7 @@ final dio = Dio();
 void getNews() async {
   final response = await dio.get(
       'https://newsapi.org/v2/top-headlines?country=us&apiKey=4aa059a7ce0349b7b3c5ca45752d043b');
-  print(response);
+  debugPrint(response as String?);
 }
 
 class MyApp extends StatelessWidget {
